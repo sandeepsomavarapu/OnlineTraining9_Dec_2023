@@ -1,0 +1,83 @@
+	Java Fullstack
+	
+	
+	
+	java developer
+	database developer
+	frontend develoeper
+	
+	
+	
+	corejava			case study-1
+	database(mysql)
+	JDBC
+	JPA					case study-2
+	SPring 
+	Springboot			case study-3
+	
+	html
+	css
+	js
+	bs
+	ts
+	angular				case study-4
+	
+	
+	
+	
+Language:
+==========
+communication with human
+
+Programming Languages:
+=======================
+		communication with machine	
+	
+		c,c++,python,java,.net,php...
+		
+		
+		POP								OOP
+B,BCPL,C,COBOL,PHOTON...		c++,python,java,.net,.php.....oopl
+		
+
+				1)Performance		inheritance,polymorphisam
+				2)Security			abstraction,encapsulation
+
+	oops features
+	
+	
+	oopl
+	
+	
+	WHY JAVA?	android	1995 JDK 1.0			WORA
+	
+			platform independent
+			garbage collection -->GC  JVM
+	
+	
+	
+		netflix
+	
+	
+	
+	
+	
+	java app  sunmicro system--oracle corporation
+	
+	
+	.net  microsoft platform depenedent
+	
+		windows 7
+		machine1	
+	
+	ram 			sai
+	linux			mac
+	
+	
+	
+	
+	
+	
+	
+	
+	

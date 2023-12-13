@@ -74,10 +74,29 @@ B,BCPL,C,COBOL,PHOTON...		c++,python,java,.net,.php.....oopl
 	linux			mac
 	
 	
+		welcome to java
+		
+		
+		java sun micro system
+		
 	
-	
-	
-	
+	jdk-->jre-->JVM
+		JVM
+		
+	Welcome.java
+		
+		53 keywords--lowercase
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 	
 	

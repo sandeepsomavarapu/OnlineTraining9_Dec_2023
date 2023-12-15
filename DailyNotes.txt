@@ -150,4 +150,51 @@ boolean 1 bit     true-1,false-0
 		a-97
 	
 	
+	Instance and static 
+	===================
+	
+	SYNTAX:
+		will use static  keyword to define static variable 
+		instance
+	
+	MEMORY
+			static :static properties will get memory space only once at the time  class loading into JVM
+			instance :instance properties will get memory at the time object creation
+						class 
+						object -->memory creation(instantiation)
+						
+						classname objname=new classname();
+	
+	ACCESS
+	
+		will use classname to access static properties
+		will use objref to access instance properties
+	
+	USAGE 
+	
+		for common data where we reuire one time memory will go for static
+		
+					like schoolname,orgname,coutryname,statename....
+	
+		for unique will go for instance
+				empid,stuid,pancard,aadhar,contact.....
+	
+	
+	
+	java
+	class   java classname jvm
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	

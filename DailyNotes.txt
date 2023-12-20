@@ -184,17 +184,66 @@ boolean 1 bit     true-1,false-0
 	java
 	class   java classname jvm
 	
+	execution
+	
+	3 parts 
+			loading the .class jvm
+				CLSS
+				
+						
+				
+				
+				memory areas
+				
+				
+				
+				
+				Execution Engine
+					
 	
 	
+	zero->byte,short,int,long
+	
+	0.0-->float,double
+	false-->boolean
+	space-->char
+	
+dynamic data:
+=============	
+	
+	package,import 
 	
 	
+	package
 	
-	
-	
-	
-	
-	
-	
-	
-	
+			predefined 			java.lang,java.util.java.io   ...
+			user defined    package com.onlinetraining9.basics
+			
+			
+			
+			
+			
+			IDE tool apache 
+			
+			
+			
+		NOTE:By Default package avialable for every java file is java.lang	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 	

@@ -230,19 +230,128 @@ dynamic data:
 		NOTE:By Default package avialable for every java file is java.lang	
 			
 			
+Methods:
+========		instance/static	
+			
+			public static o main(String args[])
+			{
+			
+			
+			}
+			
+			
+			syntax:
+			======
+			
+			accessmodifier static/instance returntype methodname(param1,param2....)
+			{
+			
+			return 
+			
+			}
+			
+Flow Control Statements:
+========================			
 			
 			
 			
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+OOPS:
+======
+
+				1)Performance		inheritance,polymorphisam
+				2)Security			abstraction,encapsulation
+
+
+
+
+Inheritance:
+============
+			code reusability
+	
+	aquiring the features/properties from one class to another class
+	
+
+extends ,implements
+
+
+class Parent		PARENT/SUPER
+{
+	//200 variables
+	
+	//1000 methods 
+	
+
+}
+
+
+ 
+class Test 	extends	Parent			class A
+{
+	//10 methods
+
+}
+
+
+	NOTE:
+			By Default PACKAGE avialable for every java file is java.lang	
+			By Default PARENT CLASS avialable for every java class is java.lang.Object	
+
+
+Multiple Inheritance:
+=====================
+
+	MI is not supported by java through classes
+	MI is  supported by java through interfaces
+	
+	class Parent1            class Parent2
+	{						{
+	
+	void m1()				void m1(){
+	{		
+	sop("hello");			sop("hi")
+	}						}
+	
+	
+	
+	}						}
+	
+	class Child extends Parent1,Parent2
+	{
+	
+	p s v main(String args[])
+	{
+		Child child=new Child();
+				child.m1()
+	
+	}
+	}
+	
+	Methods:
+	=========
+	
+		abstract
+		
+		concrete /non abstract 
+	
+	
+	concrete method
+		method with body/logic/implementation
+	
+	abstract method
+		method with out body/logic/implementation
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+		
 			
 			
 			

@@ -343,10 +343,20 @@ Multiple Inheritance:
 	
 	
 	
+	concrete class 		:	its a collection of only concrete methods
 	
+	abstract class		:	its a combination of both concrete and abstract methods
 	
+	interface			:	its a collection of only abstract methods
 	
+				interface methods are by default public abstract 
+				interface variables are public static final
 	
+		Abstraction:
+			
+				abstract class		0-100
+				
+				interface			100%
 
 
 

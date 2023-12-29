@@ -1,4 +1,4 @@
-package com.ot9.basics;
+package com.ot9.oops;
 
 class SuperParent {
 

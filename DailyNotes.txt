@@ -327,6 +327,32 @@ Multiple Inheritance:
 	}
 	}
 	
+	
+	
+	interface Parent1        interface Parent2
+	{						{
+	
+	void m1();				void m1();
+	
+	
+	
+	}						}
+	
+	class Child implements Parent1,Parent2
+	{
+	
+	p s v main(String args[])
+	{
+		Child child=new Child();
+				child.m1()
+	
+	}
+	public void m1()
+	{
+	
+	}
+	}
+	
 	Methods:
 	=========
 	
@@ -359,9 +385,39 @@ Multiple Inheritance:
 				interface			100%
 
 
-
+AccessModifiers:
+================
+	public ,private,protected,default
 
 		
+			public -->everywhere (inside or outside the package whether it is child or not )
+			private --->class level scope
+			protected --->package level scope+outside the package when ever it is child
+			default--->package level scope 
+			
+			
+polymorphisam:many forms
+
+			method overloading/compile time polymorphisam/static binding 
+			
+			method overriding/runtime polymorphisam/dynamic bidning 
+			
+			
+	method overloading:
+=========================	
+			method name is same signature is different 
+			
+								no of params
+								order of params
+								type of params
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			

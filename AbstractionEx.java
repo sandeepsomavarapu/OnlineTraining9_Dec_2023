@@ -1,3 +1,5 @@
+package com.ot9.oops;
+
 import java.util.Date;
 
 interface SuperParentEx {
@@ -8,7 +10,7 @@ interface SuperParentEx {
 	public abstract void deposit(int amount);
 }
 
-abstract class ParentEx  implements  SuperParentEx{
+abstract class ParentEx1 implements SuperParentEx {
 	int balance = 2000;
 
 	public void printAge() {
@@ -20,7 +22,7 @@ abstract class ParentEx  implements  SuperParentEx{
 
 }
 
-public class AbstractionEx extends ParentEx {
+public class AbstractionEx extends ParentEx1 {
 
 	public void displayDate() {
 		Date date = new Date();
@@ -49,15 +51,15 @@ public class AbstractionEx extends ParentEx {
 
 	@Override
 	public void withdraw(int amount) {
-		balance=balance-amount;
-		System.out.println("available balance now"+balance);
+		balance = balance - amount;
+		System.out.println("available balance now" + balance);
 	}
 
 	@Override
 	public void deposit(int amount) {
 
-		balance=balance+amount;
-		System.out.println("available balance now"+balance);
+		balance = balance + amount;
+		System.out.println("available balance now" + balance);
 	}
 
 }

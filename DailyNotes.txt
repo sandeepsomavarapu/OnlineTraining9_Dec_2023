@@ -412,6 +412,76 @@ polymorphisam:many forms
 								type of params
 			
 			
+	method overriding:
+=====================
+			method name is same implementation is different
+			
+			there must parent and child relationship
+			
+			
+			
+			
+class Parent
+{
+//1000 methods
+
+
+}
+class Child extends Parent
+{
+
+overriding
+ same method name with new/different implementation 
+
+}
+
+
+final 
+
+	before the class
+	before the method 
+	before the variable
+		
+constructor:
+=============			
+			
+			special method -->intialize an object 
+			
+			
+		A
+
+			A a=new A();
+			classname objname=new constrcutor();//constrcutor calling
+			
+			
+			
+			default 
+			parameterized 
+			
+			
+			constrcutor name classname must be same
+			
+			
+			
+			public void m1()
+			{
+			
+			}
+			
+			
+			
+			this:which is use to reperesent current class properties(variable,method,constrctor,object)
+			super:which is use to reperesent parent class properties(variable,method,constrctor)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			

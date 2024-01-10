@@ -514,7 +514,7 @@ group chars
 			
 			public synchronized void m1()
 			{
-					t1
+					t1--->
 			
 			}
 			

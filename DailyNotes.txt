@@ -474,6 +474,55 @@ constructor:
 			super:which is use to reperesent parent class properties(variable,method,constrctor)
 			
 			
+Encapsulation:
+=============
+
+			its process of wrapping the data and corresponding methods together
+			
+			
+			class Employee
+			{
+			variabels		eid =123,ename,esal=-100,eadd,edesg.... 
+			+
+			methods			public --->setters and getters
+			
+			
+			}
+			
+			
+group chars 
+
+		String,StringBuffer,StringBuilder -->java.lang
+
+			"sandeep";
+		
+			
+			String is immutable(fixed)
+			
+			StringBuffer ---->SBuffer methods are synchronized 
+			StringBuilder --->SBuilder methods are not synchronized  
+			
+			
+			
+			synchronized
+								thread-->a smallest unit of process
+											
+												t1
+												t2
+												t3
+												t4
+			
+			public synchronized void m1()
+			{
+					t1
+			
+			}
+			
+			public  void m1()
+			{
+				t1
+			
+			}
 			
 			
 			

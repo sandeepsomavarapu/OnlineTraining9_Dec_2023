@@ -524,13 +524,29 @@ group chars
 			
 			}
 			
+	variables	
+
+		int empid=1234;
+			empid=23445;
+			print(23445)
 			
+	arrays
+
+		arrays can hold multiple values 
+		
+		syntax:
+		
+		int a=123;
+		int a1[]={11,23,22,44,53,64,2,3,63,43}
+		
+		arrays can hold only homogeneous data
+		arrays are fixed in size 
 			
+			int array[]=new int[10];
 			
-			
-			
-			
-			
+			index-->0,1,2,3,4,.....
+			array[0]=232
+			System.out.println(array[0])
 			
 			
 			

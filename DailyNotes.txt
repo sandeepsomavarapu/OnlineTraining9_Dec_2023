@@ -548,6 +548,39 @@ group chars
 			array[0]=232
 			System.out.println(array[0])
 			
+	Exception Handling:
+	===================	
+		
+			1)system defined error messages
+			2)abnormal termination
+
+
+		class Test
+		{
+		1
+		2.........
+		3
+		
+		
+		1000
+		}		
+			
+			1)user friendly  error messages
+			2)normal termination
+			
+		try,catch,finally,throw,throws
+			
+										Throwable
+			
+			
+			
+			error  			 poor knowledge
+			exception    	invalid input
+			
+			
+			
+									asynchronous--->hardware and external 
+									synchronous
 			
 			
 			
@@ -556,4 +589,6 @@ group chars
 			
 			
 			
-	
+			
+			
+			

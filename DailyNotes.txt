@@ -582,13 +582,29 @@ group chars
 									asynchronous--->hardware and external 
 									synchronous
 			
+throw -->which is used to throw an exception explicitly
+throws 			
 			
 			
 			
+			username 	deep
+			password 	sandeep@123
+			
+			login success
+			
+			throw new InvalidCredentials()
 			
 			
+	1)take one class make that as child class to the anyone of the Exception/RuntimeException/Throwable class		
+	
+			class InvalidCredentials extends Exception
+			{
+			InvalidCredentials(String message)
+			{
+				super(message);
+			}
+			}
 			
-			
-			
+	2) take one parameterized constrctor		
 			
 			

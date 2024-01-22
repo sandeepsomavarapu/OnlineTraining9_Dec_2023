@@ -24,6 +24,9 @@ public class Exception3 {
 		} catch (NumberFormatException e) {
 			System.out.println("we cant convert string to number");
 		}
+		catch (Exception e) {
+			System.out.println("null pointer exception");
+		}
 
 		finally {
 			scan.close();// cleanup

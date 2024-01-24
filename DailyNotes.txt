@@ -608,3 +608,120 @@ throws
 	2) take one parameterized constrctor		
 			
 			
+			
+	System.out.println()
+
+
+
+public class Test
+{
+ static String name="sandeep";
+
+public static void main(String args[])
+{
+		Test.name.length()
+
+}
+}
+
+
+public class System
+{
+static PrintStream out;
+
+		System.out.println()
+
+}
+
+FILE IO:
+=======
+	java.io
+
+	files		java
+	database
+
+stream
+======
+	flow of data
+
+character stream	
+byte stream
+data stream
+buffered stream
+Object stream
+
+
+
+	username 
+	password 
+				
+					file 
+					login success
+					 enter valid credentials
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+			

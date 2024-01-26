@@ -650,6 +650,10 @@ data stream
 buffered stream
 Object stream
 
+		object data --->byte data-->serialization
+		byte data-->object data --->de-serialization
+		
+
 
 
 	username 
@@ -662,7 +666,10 @@ Object stream
 
 
 
-
+INTERFACE 
+		I	abstract 
+		MI	zero abstract
+		FI	SAM-->single abstact method
 
 
 

@@ -671,18 +671,69 @@ INTERFACE
 		MI	zero abstract
 		FI	SAM-->single abstact method
 
+Collections Framework:
+======================
+
+
+	Framework
+	
+	ready made templates-->boiler plate code -->duplicates
+
+
+	jar-->.class files 
 
 
 
+variables
+	
+	int id=123;
+		id=124;
+		
+	arrays
+	
+	int ids[]={12,23,43,11,323,...}//index  10
+	
+	arrays limitations	
+	
+	1)arrays will allow only homogeneous data/similar 
+	2)arrays fixed in size/ not growable in nature  AIOE
+	3)no utility methods
+	
+	advantages with collections
+	
+	
+	1)collections will allow both homogeneous data and heterogenous is allowed
+	2)collections are not fixed in size/  growable in nature  AIOE  AL-10-->16--->25
+	3)lots of methods
+	
+	
+	
+			java.util
+			
+			Collection(I)--->group of objects as single entity
+			
+			List-->group of objects where duplicates are allowed and insertion order is preserved 
+	
+			Set--->group of objects where duplicates are not allowed and insertion order is not preserved 
+			
+			Queue-->where FIFO order 
+			
+			
+			Map-->key,value 
+	
+	
+List:
 
-
-
-
-
-
-
-
-
+Al,LL,V,S	
+	
+		
+	
+	
+	
+	
+	
+	
+	
 
 
 

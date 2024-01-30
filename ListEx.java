@@ -1,6 +1,7 @@
 package com.ot9.collections;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 //Collection:
 //1)collections will allow both homogeneous data and heterogenous is allowed
@@ -13,14 +14,14 @@ import java.util.ArrayList;
 public class ListEx {
 
 	public static void main(String[] args) {
-		ArrayList<String> list = new ArrayList<String>();// generic -->10-->16 -->(cc*3/2)+1
+		LinkedList<String> list = new LinkedList<String>();// generic -->10-->16 -->(cc*3/2)+1
 		list.add("suresh");
 		list.add("naresh");
 		list.add("mahesh");
 		list.add("rajesh");
 		list.add("somesh");
 		list.add("suresh");
-		list.add("sandeep");
+		list.add(2,"sandeep");
 
 		System.out.println(list);
 

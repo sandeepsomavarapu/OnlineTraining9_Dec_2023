@@ -718,6 +718,7 @@ variables
 			
 			Queue-->where FIFO order 
 			
+			Stack-->FILO
 			
 			Map-->key,value 
 	
@@ -726,8 +727,18 @@ List:
 
 Al,LL,V,S	
 	
-		
 	
+	AL-10,16 not synchronized ,V-10,20  synchronized
+	
+	AL ,LL	
+	
+	
+	
+	
+	
+Set 
+
+HS,LHS,TS	
 	
 	
 	

@@ -13,7 +13,7 @@ import java.util.TreeSet;
 public class SetEx {
 
 	public static void main(String[] args) {
-		TreeSet<String> set = new TreeSet<String>();// generic -->10-->16 -->(cc*3/2)+1
+		TreeSet set = new TreeSet();// generic -->10-->16 -->(cc*3/2)+1
 		set.add("suresh");
 		set.add("naresh");
 		set.add("mahesh");
@@ -23,6 +23,7 @@ public class SetEx {
 		set.add("suresh");
 		set.add("bargav");
 		set.add("sandeep");
+		set.add(123);
 
 		System.out.println(set);//hashset--->hashmap
 

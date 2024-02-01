@@ -1,7 +1,7 @@
 package com.ot9.collections;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.Iterator;
 
 //Collection:
 //1)collections will allow both homogeneous data and heterogenous is allowed
@@ -22,23 +22,38 @@ public class ListEx {
 		list.add("somesh");
 		list.add("suresh");
 		list.add(2, "sandeep");
-		System.out.println(list.contains("suresh"));
-		System.out.println(list.size());
+
 		System.out.println(list);
-		list.remove("sandeep");
-		System.out.println(list);
-		// list.clear();
-		System.out.println(list);
-		ArrayList<String> list1 = new ArrayList<String>();// generic -->10-->16 -->(cc*3/2)+1
-		list1.add("capgemini");
-		list1.add("cognizant");
-		System.out.println(list1);
-		list1.addAll(list);
-		System.out.println(list1);
-		// list1.removeAll(list);
-		// list1.retainAll(list);
-		System.out.println(list1.containsAll(list));
-		System.out.println(list1.isEmpty());
+
+		Iterator<String> itr = list.iterator();
+
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+
+		Object[] array = list.toArray();
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+
+//		System.out.println(list.contains("suresh"));
+//		System.out.println(list.size());
+//		System.out.println(list);
+//		list.remove("sandeep");
+//		System.out.println(list);
+//		// list.clear();
+//		System.out.println(list);
+//		ArrayList<String> list1 = new ArrayList<String>();// generic -->10-->16 -->(cc*3/2)+1
+//		list1.add("capgemini");
+//		list1.add("cognizant");
+//		System.out.println(list1);
+//		list1.addAll(list);
+//		System.out.println(list1);
+//		// list1.removeAll(list);
+//		// list1.retainAll(list);
+//		System.out.println(list1.containsAll(list));
+//		System.out.println(list1.isEmpty());
+
 	}
 
 }

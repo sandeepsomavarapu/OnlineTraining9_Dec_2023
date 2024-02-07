@@ -744,16 +744,32 @@ HS,LHS,TS
 Map
 	
 	
-	
+	Product Management
+	Bank Application
+	Student Management
+
+Bank Application--->layered Architecture
+	1)Create Account
+	2)Withdraw
+	3)Deposit
+	4)FundTransfer
+	5)Print Transactions
+	6)View Account Details 
+	7)Exit
+
+Product Management
+
+	1)Add Product	   collection-map
+	2)Update Product
+	3)Delete Product
+	4)Get Product Info
+	5)Get All Products
+	6)Get All Products Between The Prices
+	7)Get All Products by category
+	8)Get All Products by Brand Name
 
 
-
-
-
-
-
-
-
+	productId,productName,productPrice,productCategory,productBrand,
 
 
 

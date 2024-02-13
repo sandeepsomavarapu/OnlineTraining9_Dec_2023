@@ -779,6 +779,35 @@ Layared Architecture:
 
 
 
+MultiThreading:
+===============
+multi tasking
+		executing sevral tasks simultaniously
+
+			process based multi tasking 
+					executing sevral tasks simultaniously where each and every task is seprate independent process
+					ex:running eclipse,notepad,goto meeting...
+			thread based multi tasking :multi threading
+					executing sevral tasks simultaniously where each and every task belongs same process
+					ex:gotomeeting,audio,video,chat....
+			process:group/collection thread
+
+			thread :a smallest unit of process
+
+	2 ways
+
+1)by implements Runnable interface  Functional inteface-->SAM 
+2)by extending Thread class 	
+
+	
+
+
+
+
+
+
+
+
 
 
 

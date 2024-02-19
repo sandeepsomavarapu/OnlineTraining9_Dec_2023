@@ -1,6 +1,6 @@
 package com.ot9.threads;
 
-public class ThreadEx1  implements Runnable {
+public class ThreadEx1  implements Runnable {//FI
 
 	@Override
 	public void run() {
